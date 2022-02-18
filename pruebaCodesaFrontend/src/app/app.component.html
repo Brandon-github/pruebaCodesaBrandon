@@ -1,0 +1,11 @@
+<div class="container p-5">
+  <button (click)="Nuevo()" class="btn btn-info">Nuevo</button>
+  <form action="" class="form-inline mt-4">
+    <div class="form-group">
+      <input type="search" class="form-control" placeholder="Buscar persona" name="nombre">
+      <button (click)="Listar()" class="btn btn-info ml-3">Consultar</button>
+    </div>
+  </form>
+</div>
+
+<router-outlet></router-outlet>
